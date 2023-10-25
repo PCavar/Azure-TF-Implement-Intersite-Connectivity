@@ -110,8 +110,8 @@ variable "vm_conf" {
       subnet_key = "vnet0"
       pub_name   = "az104-05-pub0"
       size       = "Standard_D2_v2"
-      admin_name = "azurestudent"
-      admin_pass = "azurestudent12345!"
+      admin_name = "azurestudent" ##NOT BEST PRACTICE OR RECOMMENDED STORING SENSITIVE INFORMATION LIKE THIS
+      admin_pass = "azurestudent12345!" ## Only for quick deployment purposes
     },
     vm1 = {
       vm_name    = "az104-05-vm1"
@@ -121,8 +121,8 @@ variable "vm_conf" {
       subnet_key = "vnet1"
       pub_name   = "az104-05-pub1"
       size       = "Standard_D2_v2"
-      admin_name = "azurestudent"
-      admin_pass = "azurestudent12345!"
+      admin_name = "azurestudent" ##NOT BEST PRACTICE OR RECOMMENDED STORING SENSITIVE INFORMATION LIKE THIS
+      admin_pass = "azurestudent12345!" ## Only for quick deployment purposes
     },
     vm2 = {
       vm_name    = "az104-05-vm2"
@@ -132,8 +132,8 @@ variable "vm_conf" {
       subnet_key = "vnet2"
       pub_name   = "az104-05-pub2"
       size       = "Standard_D2_v2"
-      admin_name = "azurestudent"
-      admin_pass = "azurestudent12345!"
+      admin_name = "azurestudent" ##NOT BEST PRACTICE OR RECOMMENDED STORING SENSITIVE INFORMATION LIKE THIS
+      admin_pass = "azurestudent12345!" ## Only for quick deployment purposes
     }
   }
 }
