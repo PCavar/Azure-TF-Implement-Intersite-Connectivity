@@ -42,9 +42,9 @@ resource "azurerm_windows_virtual_machine" "vms" {
   }
 
   source_image_reference {
-    publisher = var.source_ir["source_vm"].publisher
-    offer     = var.source_ir["source_vm"].offer
-    sku       = var.source_ir["source_vm"].sku
-    version   = var.source_ir["source_vm"].version
+    publisher = var.src_img_ref["source_vm"].publisher
+    offer     = var.src_img_ref["source_vm"].offer
+    sku       = var.src_img_ref["source_vm"].sku
+    version   = var.src_img_ref["source_vm"].version
   }
 }

@@ -30,7 +30,7 @@ variable "global_peering_name" {
   ]
 }
 
-variable "source_ir" {
+variable "src_img_ref" {
   type = map(object({
     publisher = string
     offer     = string
